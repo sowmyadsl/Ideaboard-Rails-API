@@ -1,24 +1,51 @@
-# README
+# Ideaboard API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails API that includes the data for an Ideaboard application. It includes versioning.
 
-Things you may want to cover:
+Business information includes:
 
-* Ruby version
+- title
+- body
 
-* System dependencies
+Users can access:
 
-* Configuration
+- GET requests for ideas.
+- POST, PATCH, PUT, DELETE requests for ideas.
 
-* Database creation
+# Installation
 
-* Database initialization
+`git clone https://github.com/sowmyadsl/ideaboard-api`
+`cd ideaboard-api`
 
-* How to run the test suite
+# PostgreSQL Integration
 
-* Services (job queues, cache servers, search engines, etc.)
+`postgres`
+`rake db:create`
+`rake db:migrate db:test:prepare`
 
-* Deployment instructions
+# Seed database
 
-* ...
+`rake db:seed`
+
+# Development server
+
+Run `rails s` for a dev server. Navigate to `http:localhost:3000/api/v1/ideas`. The app will automatically reload if you change any of the source files.
+
+# Technologies used
+
+- Ruby
+- Rails
+- PostgreSQL
+- git
+
+# Other sources
+* [RACK Cors](https://github.com/cyu/rack-cors)
+
+# Known Bugs
+- No known bugs as of now.
+
+# License
+
+This software is licensed under MIT license.
+
+`Copyright (c) 2017 Sowmya Dinavahi`
