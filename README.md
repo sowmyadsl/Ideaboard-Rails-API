@@ -14,7 +14,7 @@ Users can access:
 
 # Screenshot
 
-![](https://github.com/sowmyadsl/ideaboard-api/public/screenshot.png)
+![](https://github.com/sowmyadsl/Ideaboard-Rails-API/blob/master/public/screenshot.png)
 
 # Installation
 
