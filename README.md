@@ -14,18 +14,18 @@ Users can access:
 
 # Installation
 
-`git clone https://github.com/sowmyadsl/ideaboard-api`
-`cd ideaboard-api`
+- `git clone https://github.com/sowmyadsl/ideaboard-api`
+- `cd ideaboard-api`
 
 # PostgreSQL Integration
 
-`postgres`
-`rake db:create`
-`rake db:migrate db:test:prepare`
+- `postgres`
+- `rake db:create`
+- `rake db:migrate db:test:prepare`
 
 # Seed database
 
-`rake db:seed`
+- `rake db:seed`
 
 # Development server
 
