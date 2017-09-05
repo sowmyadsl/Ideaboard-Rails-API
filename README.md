@@ -12,6 +12,10 @@ Users can access:
 - GET requests for ideas.
 - POST, PATCH, PUT, DELETE requests for ideas.
 
+# Screenshot
+
+![](https://github.com/sowmyadsl/ideaboard-api/public/screenshot.png)
+
 # Installation
 
 - `git clone https://github.com/sowmyadsl/ideaboard-api`
